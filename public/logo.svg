@@ -1,0 +1,21 @@
+<svg width="42" height="48" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <polygon 
+    points="100,10 173.2,55 173.2,145 100,190 26.8,145 26.8,55"
+    fill="none"
+    stroke="#5fffd3"
+    stroke-width="12"
+    stroke-linejoin="round"
+  />
+
+  <text 
+    x="100" 
+    y="115" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-size="80" 
+    font-weight="bold" 
+    font-family="Arial, sans-serif" 
+    fill="#5fffd3">
+    Y
+  </text>
+</svg>
