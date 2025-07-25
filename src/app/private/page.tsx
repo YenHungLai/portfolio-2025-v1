@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 
 export default function Page() {
   return (
@@ -26,10 +26,12 @@ export default function Page() {
 
       <h1 className="text-2xl font-bold">Buttons</h1>
       <div className="flex flex-wrap gap-2 my-4 *:whitespace-nowrap *:w-48">
-        <Button className="btn-primary" href="https://www.google.com">btn-primary</Button>
+        <Button className="btn-primary" href="https://www.google.com">
+          btn-primary
+        </Button>
       </div>
     </div>
-  )
+  );
 }
 
 // export default function Home() {
