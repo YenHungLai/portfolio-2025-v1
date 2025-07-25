@@ -86,8 +86,8 @@ export default function AboutMe() {
           <div className="image-wrapper">
             <img
               className="rounded-[4px]"
-              src="https://v4.brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif"
-              alt="Brittany Chiang"
+              src="https://fs.mingpao.com/ldy/20211105/s00008/39bd6e06ab35c506ba9ad7c939617c90.jpg"
+              alt="Temp"
               width={500}
               height={500}
             />
