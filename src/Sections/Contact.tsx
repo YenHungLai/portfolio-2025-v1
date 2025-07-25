@@ -4,7 +4,7 @@ import Button from "@/components/Button";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto text-center">
+    <section id="contact" className="text-center">
       <h2 className="text-green text-[16px] text-sm font-sf-mono mt-[10px] mb-[20px]">
         04. What's Next?
       </h2>

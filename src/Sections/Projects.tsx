@@ -58,7 +58,7 @@ export default function Projects() {
   }
 
   return (
-    <section id="work" className="mx-auto">
+    <section id="work" className="">
       <SectionHeading>Some Things I've Built</SectionHeading>
       <div>
         <ul>

@@ -93,7 +93,7 @@
   }
 
   section {
-    @apply py-[60px] sm:py-[80px] lg:py-[100px] max-w-[1000px];
+    @apply py-[60px] sm:py-[80px] lg:py-[100px] max-w-[1000px] m-auto;
   }
 
   a {

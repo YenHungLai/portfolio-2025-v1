@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="flex h-screen flex-col items-start justify-center">
+    <section className="flex h-screen flex-col items-start justify-center ml-0">
       <h1 className="text-green font-sf-mono mb-[30px] ml-[4px]">
         Hi, my name is
       </h1>

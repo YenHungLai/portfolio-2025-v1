@@ -78,7 +78,7 @@ export default function Experience() {
   }
 
   return (
-    <section id="experience" className="mx-auto lg:max-w-[700px]">
+    <section id="experience" className="lg:max-w-[700px]">
       <SectionHeading>Where I’ve Worked</SectionHeading>
       <div className="flex flex-col sm:flex-row gap-10">
         <div className="tabs">
