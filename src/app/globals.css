@@ -54,6 +54,7 @@
   --color-slate-lighter: #ccd6f6;
   --color-white: #e6f1ff;
   --color-green: #64ffda;
+  --color-green-light: #4efff9;
   --color-header-background: rgba(10, 25, 47, 0.85);
 
   --font-sans: var(--font-geist-sans);
@@ -218,23 +219,18 @@
   }
 
   .project-image-wrapper {
-    @apply bg-green relative rounded-[4px] overflow-hidden hover:bg-transparent;
-    transition: var(--transition);
+    @apply bg-[#40a3fc] md:bg-green-light relative rounded-[4px] overflow-hidden h-full;
+    @apply hover:bg-transparent hover:before:content-none transition-[var(--transition)];
+  }
+
+  .project-image-wrapper::before {
+    @apply content-[''] absolute inset-0 bg-navy-lighter mix-blend-screen;
   }
 
   .project-image-wrapper-inner {
-    @apply mix-blend-multiply grayscale contrast-[1] brightness-50 md:brightness-90;
-    @apply hover:filter-none hover:bg-transparent hover:mix-blend-normal;
-  }
-
-  .project-image-wrapper-inner:before {
-    content: "";
-    position: absolute;
-    inset: 0px;
-    transition: var(--transition);
-    background-color: var(--color-navy);
-    mix-blend-mode: screen;
-    @apply hover:content-none;
+    @apply mix-blend-multiply grayscale contrast-100 brightness-60 h-full;
+    @apply md:contrast-90 md:brightness-90;
+    @apply hover:filter-none hover:mix-blend-normal transition-[var(--transition)];
   }
 
   .tabs {
