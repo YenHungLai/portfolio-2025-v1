@@ -17,7 +17,11 @@ export default function Header({ onMenuClick, isDrawerOpen }: HeaderProps) {
     <header className="header">
       <nav className="flex items-center flex-1">
         <div className="logo">
-          <a href="/" aria-label="home" className="">
+          <a
+            href="/"
+            aria-label="home"
+            className="inline-block hover:translate-y-[-5px] hover:translate-x-[-5px] transition-[var(--transition)]"
+          >
             <Image src={logo} alt="logo" width={42} height={48} />
           </a>
         </div>
