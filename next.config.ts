@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "v4.brittanychiang.com",
       },
+      {
+        protocol: "https",
+        hostname: "fs.mingpao.com",
+      },
     ],
   },
 };
