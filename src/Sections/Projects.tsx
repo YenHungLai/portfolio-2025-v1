@@ -5,7 +5,6 @@ import Image from "next/image";
 import github from "../../public/github.svg";
 import external from "../../public/external.svg";
 
-//FIXME: looks like shit on mobile
 export default function Projects() {
   const PROJECTS = [
     {
@@ -95,10 +94,10 @@ export default function Projects() {
                   ))}
                 </ul>
                 <div
-                  className={`project-links ${
+                  className={`project-links translate-x-[-10px] ${
                     isOdd(idx + 1)
-                      ? "translate-x-[10px]"
-                      : "-translate-x-[10px]"
+                      ? "md:translate-x-[10px]"
+                      : "md:-translate-x-[10px]"
                   }`}
                 >
                   {project.links.map((link, idx) => (
@@ -128,6 +127,7 @@ export default function Projects() {
                   href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="inline-block h-full"
                 >
                   <div className="project-image-wrapper">
                     <div className="project-image-wrapper-inner">
@@ -136,6 +136,7 @@ export default function Projects() {
                         alt={project.image.alt}
                         width={project.image?.width ?? 700}
                         height={project.image?.height ?? 438}
+                        className="h-full object-cover"
                       />
                     </div>
                   </div>
