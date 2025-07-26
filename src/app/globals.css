@@ -88,6 +88,8 @@
     background: var(--color-navy);
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
+    /* For loading screen to override */
+    overflow-y: hidden;
 
     counter-reset: section;
   }
