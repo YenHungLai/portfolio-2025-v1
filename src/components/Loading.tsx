@@ -7,11 +7,10 @@ export default function Loading() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    document.body.style.overflowY = "hidden";
     setTimeout(() => {
       document.body.style.overflowY = "auto";
       ref.current?.classList.add("hidden");
-    }, 1500);
+    }, 2000);
   }, []);
 
   return (
@@ -25,7 +24,7 @@ export default function Loading() {
           alt="Logo"
           width={96}
           height={96}
-          className="animate-pulse [animation-duration:1.5s]"
+          className="animate-pulse [animation-duration:2s]"
           priority
         />
       </div>
