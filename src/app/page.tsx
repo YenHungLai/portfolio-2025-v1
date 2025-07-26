@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 // Components
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -16,20 +16,14 @@ import Loading from "@/components/Loading";
 
 export default function Home() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const isMounted = useRef(false);
-
-  useEffect(() => {
-    if (isMounted.current) {
-      document.body.style.overflowY = isDrawerOpen ? "hidden" : "auto";
-    }
-
-    isMounted.current = true;
-  }, [isDrawerOpen]);
 
   return (
     <div className="px-[25px] sm:px-[50px] md:px-[100px] lg:px-[150px]">
       <Header
-        onMenuClick={() => setIsDrawerOpen(true)}
+        onMenuClick={() => {
+          document.body.style.overflowY = "hidden";
+          setIsDrawerOpen(true);
+        }}
         isDrawerOpen={isDrawerOpen}
       />
       <main className="max-w-[1600px] w-full mx-auto">
@@ -42,7 +36,13 @@ export default function Home() {
       <Footer />
 
       <Loading />
-      <Drawer open={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
+      <Drawer
+        open={isDrawerOpen}
+        onClose={() => {
+          setIsDrawerOpen(false);
+          document.body.style.overflowY = "auto";
+        }}
+      />
       <FloatingLinks />
       <FloatingLinks type="email" position="right" />
     </div>
