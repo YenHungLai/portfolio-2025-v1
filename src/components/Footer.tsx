@@ -5,7 +5,7 @@ import linkedin from "../../public/linkedin.svg";
 export default function Footer() {
   return (
     <footer className="min-h-[70px] p-[15px]">
-      <ul className="visible md:hidden flex gap-[20px] justify-center">
+      <ul className="visible md:hidden flex gap-[20px] justify-center mb-[10px]">
         <li>
           <a
             href="https://github.com/YenHungLai"
@@ -26,16 +26,24 @@ export default function Footer() {
         </li>
       </ul>
 
-      <a
-        href="https://google.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-[10px] font-sf-mono text-slate text-[12px]"
-      >
-        <p className="whitespace-nowrap text-center">
+      <div className="p-[10px]">
+        <a
+          href="https://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-sf-mono text-slate text-[12px] text-center block"
+        >
           Built by Young Lai
-          <br />
-          Design Inspired by{" "}
+        </a>
+        <p className="text-center font-sf-mono">
+          <a
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[12px] text-slate"
+          >
+            Design Inspired by{" "}
+          </a>
           <a
             href="https://brittanychiang.com"
             target="_blank"
@@ -45,7 +53,7 @@ export default function Footer() {
             Brittany Chiang
           </a>
         </p>
-      </a>
+      </div>
     </footer>
   );
 }
