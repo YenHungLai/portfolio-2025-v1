@@ -38,10 +38,27 @@ export default function Experience() {
             </p>
             <ul className="*:text-slate *:text-[18px] *:before:relative *:before:bottom-[2px] font-calibre list">
               <li>
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Collaborate with UI designers, project managers, and other
+                engineers to translate client requirements into digital
+                solutions that meet their business needs
+              </li>
+              <li>
+                Convert UI designs into production-ready, performant, and
+                mobile-friendly React components.
+              </li>
+              <li>
+                Design and implement backend services powered by TypeScript and
+                cloud providers such as AWS, Firebase, etc. to handle
+                authentication, database connection, and business logic
+              </li>
+              <li>
+                Work as part of a Scrum team, participating in daily standups,
+                sprint planning, sprint reviews, and led demo meetings to update
+                clients on progress and gather feedbacks
+              </li>
+              <li>
+                Develop cross-platform mobile applications using React Native
+                and Flutter to help clients grow and streamline their business
               </li>
             </ul>
           </div>
@@ -64,10 +81,13 @@ export default function Experience() {
             </p>
             <ul className="*:text-slate *:text-[18px] *:before:relative *:before:bottom-[2px] font-calibre list">
               <li>
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Maintained a movie review website using React and Firebase and
+                added multiple new features
+              </li>
+              <li>
+                Designed and implemented cloud solutions for a serverless web
+                app utilizing Firebase Firestore, Firebase Hosting, Firebase
+                Functions, and Firebase Storage
               </li>
             </ul>
           </div>
