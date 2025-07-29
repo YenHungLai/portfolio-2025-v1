@@ -5,10 +5,10 @@ import SectionHeading from "@/components/SectionHeading";
 import { DeviceType, useDeviceType } from "@/hooks/useDeviceType";
 
 export default function Experience() {
-  const TABS = ["Fyresite", "Incluvie"];
   const [active, setActive] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const deviceType = useDeviceType();
+  const TABS = ["Fyresite", "Incluvie"];
 
   function renderTabContent() {
     if (ref.current) {
