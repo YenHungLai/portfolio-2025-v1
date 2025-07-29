@@ -28,31 +28,15 @@ export default function Footer() {
 
       <div className="p-[10px]">
         <a
-          href="https://google.com"
+          href="https://github.com/YenHungLai/portfolio-2025-v1"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-sf-mono text-slate text-[12px] text-center block"
+          className="font-sf-mono text-slate text-[12px] text-center block leading-5"
         >
           Built by Young Lai
+          <br />
+          Built with Next.js, Tailwind, and AWS
         </a>
-        <p className="text-center font-sf-mono">
-          <a
-            href="https://google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[12px] text-slate"
-          >
-            Design Inspired by{" "}
-          </a>
-          <a
-            href="https://brittanychiang.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[12px] text-slate"
-          >
-            Brittany Chiang
-          </a>
-        </p>
       </div>
     </footer>
   );
