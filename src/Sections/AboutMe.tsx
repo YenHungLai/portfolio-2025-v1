@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SectionHeading from "@/components/SectionHeading";
 
 export default function AboutMe() {
@@ -6,79 +5,47 @@ export default function AboutMe() {
     <section id="about" className="">
       <SectionHeading>About Me</SectionHeading>
       <div className="flex flex-col sm:flex-row gap-[50px]">
-        <div className="**:text-[18px] **:font-calibre **:text-slate [&>p]:mb-[15px]">
+        <div className="**:text-[20px] **:font-calibre *:text-slate [&>p]:mb-[15px]">
           <p>
-            Hello! My name is Brittany and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML
-            &amp; CSS!
+            Hello! My name is Young Lai and I enjoy building applications that
+            solves real-world problems. I'm a
+            <a
+              href="https://www.credly.com/badges/75344ab0-00d5-4056-a435-ff6bdcc58f7d/public_url"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-green"
+            >
+              &nbsp;certified AWS solutions architect&nbsp;
+            </a>
+            and a fullstack software engineer.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at{" "}
+            For the past 5 years, I've been working at a
             <a
-              href="https://us.mullenlowe.com/"
+              href="https://www.fyresite.com"
               rel="noopener noreferrer"
               target="_blank"
+              className="text-green"
             >
-              an advertising agency
+              &nbsp;software development agency&nbsp;
             </a>
-            ,
-            <a
-              href="https://starry.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              a start-up
-            </a>
-            ,
-            <a
-              href="https://www.apple.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              a huge corporation
-            </a>
-            , and
-            <a
-              href="https://scout.camd.northeastern.edu/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              a student-led design studio
-            </a>
-            . My main focus these days is building accessible, inclusive
-            products and digital experiences at
-            <a
-              href="https://upstatement.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Upstatement
-            </a>
-            for a variety of clients.
+            where we take on a wide range of projects from Shopify themes,
+            custom Shopify apps, web/mobile apps, integrations between platforms
+            and services, and so on. This has honed my ability to learn things
+            quickly and adapt to new technologies.
           </p>
           <p>
-            I also recently
-            <a
-              href="https://www.newline.co/courses/build-a-spotify-connected-app"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              launched a course
-            </a>
-            that covers everything you need to build a web app with the Spotify
-            API using Node &amp; React.
+            Currently, I'm developing my skills in native iOS development and
+            I'm trying to launch an app in the app store.
           </p>
-          <p>Here are a few technologies I’ve been working with recently:</p>
-
+          <p>I have strong experience with:</p>
           <ul className="grid grid-cols-2 mt-5 list">
             <li>AWS</li>
             <li>React</li>
             <li>JavaScript (ES6+)</li>
             <li>TypeScript</li>
             <li>Node.js</li>
-            <li>Shopify</li>
+            <li>Tailwind</li>
           </ul>
         </div>
 

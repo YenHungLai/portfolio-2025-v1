@@ -58,7 +58,7 @@ export default function Projects() {
   }
 
   return (
-    <section id="work" className="">
+    <section id="work" className="hidden">
       <SectionHeading>Some Things I've Built</SectionHeading>
       <div>
         <ul>
